@@ -1,0 +1,16 @@
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/bin/Debug/netcoreapp3.1/Data.deps.json
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/bin/Debug/netcoreapp3.1/Data.dll
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/bin/Debug/netcoreapp3.1/Data.pdb
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csproj.AssemblyReference.cache
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/obj/Debug/netcoreapp3.1/Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/obj/Debug/netcoreapp3.1/Data.AssemblyInfoInputs.cache
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/obj/Debug/netcoreapp3.1/Data.AssemblyInfo.cs
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csproj.CoreCompileInputs.cache
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/obj/Debug/netcoreapp3.1/Data.dll
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/obj/Debug/netcoreapp3.1/Data.pdb
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/bin/Debug/netcoreapp3.1/Data.runtimeconfig.json
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/bin/Debug/netcoreapp3.1/Data.runtimeconfig.dev.json
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/obj/Debug/netcoreapp3.1/Data.genruntimeconfig.cache
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/bin/Debug/netcoreapp3.1/Domain.dll
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/obj/Debug/netcoreapp3.1/Data.csproj.CopyComplete

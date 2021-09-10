@@ -1,0 +1,10 @@
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Service/bin/Debug/netcoreapp3.1/Service.deps.json
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Service/bin/Debug/netcoreapp3.1/Service.dll
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Service/bin/Debug/netcoreapp3.1/Service.pdb
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Service/obj/Debug/netcoreapp3.1/Service.GeneratedMSBuildEditorConfig.editorconfig
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Service/obj/Debug/netcoreapp3.1/Service.AssemblyInfoInputs.cache
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Service/obj/Debug/netcoreapp3.1/Service.AssemblyInfo.cs
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Service/obj/Debug/netcoreapp3.1/Service.csproj.CoreCompileInputs.cache
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Service/obj/Debug/netcoreapp3.1/Service.dll
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Service/obj/Debug/netcoreapp3.1/Service.pdb
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Service/obj/Debug/netcoreapp3.1/Service.csproj.AssemblyReference.cache
