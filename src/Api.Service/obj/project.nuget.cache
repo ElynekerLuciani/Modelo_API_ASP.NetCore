@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1pNgH1p+KeeZ7cwhpwp+uKszuHaI5IXxrl/PZkAVTBnxs4H3nWIxoR+uori9xC6Kiqi5RLKkaoJF6hA8L8DMFA==",
+  "dgSpecHash": "NMF/ThLo6MG1USl17Rk61WSjF4GgrxkjWprMUIP2pOXuGuhCweKRA7i3KMcuAmfGi7XiF3EyYfTTdu680LZmJw==",
   "success": true,
   "projectFilePath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Service/Service.csproj",
   "expectedPackageFiles": [
