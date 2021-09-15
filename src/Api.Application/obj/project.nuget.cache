@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "7MjBS/MpT2O7KWLX17dss17S/CLr9mPtYtHJExk/kHk/gAcDXpOh0EX0IJ2WbeBInhnpU/UoBUzIpqg+avNnug==",
+  "dgSpecHash": "2Z39sh9+af97OPNMFw/+it31ImlwGLbZYlXrY6msjTlgHmNlM63zAfgAxF6fpd1fjo+qEua2ke4QUvr6fkmpuA==",
   "success": true,
   "projectFilePath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/application.csproj",
   "expectedPackageFiles": [
     "/home/elyneker/.nuget/packages/automapper/10.0.0/automapper.10.0.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.0.1/automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "/home/elyneker/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/3.1.6/microsoft.aspnetcore.authentication.jwtbearer.3.1.6.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
@@ -30,6 +31,8 @@
     "/home/elyneker/.nuget/packages/microsoft.identity.client/3.0.8/microsoft.identity.client.3.0.8.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.identitymodel.jsonwebtokens/5.5.0/microsoft.identitymodel.jsonwebtokens.5.5.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.identitymodel.logging/5.5.0/microsoft.identitymodel.logging.5.5.0.nupkg.sha512",
+    "/home/elyneker/.nuget/packages/microsoft.identitymodel.protocols/5.5.0/microsoft.identitymodel.protocols.5.5.0.nupkg.sha512",
+    "/home/elyneker/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/5.5.0/microsoft.identitymodel.protocols.openidconnect.5.5.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.identitymodel.tokens/5.5.0/microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",

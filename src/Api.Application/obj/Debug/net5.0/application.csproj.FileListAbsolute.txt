@@ -65,3 +65,7 @@
 /home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
 /home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
 /home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/bin/Debug/net5.0/mono_crash.21acb2c4bb.1.json
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
