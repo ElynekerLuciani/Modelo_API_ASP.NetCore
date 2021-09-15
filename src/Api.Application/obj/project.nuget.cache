@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D6T+P8q97JoTMwC3Q9NOGD0yVbr/QfaE0yOPVE4A8Gb115qGHAmsXJ4WnPwkAwteRyakumwRM+bDsrKHC2O6FA==",
+  "dgSpecHash": "RgVCkCZLcI7lGyraGPM93nUQKlqkR4MOV+QuebTqW2qbdBTL5KePnsnOseBRzCv44iCdBQv8jvvy0v+2KRrujg==",
   "success": true,
   "projectFilePath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/application.csproj",
   "expectedPackageFiles": [

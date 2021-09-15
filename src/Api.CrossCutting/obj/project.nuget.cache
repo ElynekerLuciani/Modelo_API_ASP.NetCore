@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SVkJgMpmNA72VV7aygV2mKEjrfw2BSjm6ObSKXZT7866NyttpdoKiIZc+tZeImYA+qMIEsBH4qY4i1sZZVtASA==",
+  "dgSpecHash": "ClpcWtrsGKb9Uh2ASMxMl4j7N0Tfm6/wQ7onfiC8Eet74e5GJG/KTs5bA92cqk/Clnx8sFRLYt35HltEz/P7TA==",
   "success": true,
   "projectFilePath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.CrossCutting/CrossCutting.csproj",
   "expectedPackageFiles": [
