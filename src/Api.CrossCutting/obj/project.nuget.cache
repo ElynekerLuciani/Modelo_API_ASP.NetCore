@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ClpcWtrsGKb9Uh2ASMxMl4j7N0Tfm6/wQ7onfiC8Eet74e5GJG/KTs5bA92cqk/Clnx8sFRLYt35HltEz/P7TA==",
+  "dgSpecHash": "QjlwUn4Y00gzRZFngtuXc7kX3+v4KujlIOCIMRUM92Zi4mqXPqEkTTWJYAUH/cxJ9ohvKwAt7ZxLQv/0/ls/hQ==",
   "success": true,
   "projectFilePath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.CrossCutting/CrossCutting.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,9 @@
     "/home/elyneker/.nuget/packages/microsoft.extensions.options/3.1.6/microsoft.extensions.options.3.1.6.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.extensions.primitives/3.1.6/microsoft.extensions.primitives.3.1.6.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.identity.client/3.0.8/microsoft.identity.client.3.0.8.nupkg.sha512",
+    "/home/elyneker/.nuget/packages/microsoft.identitymodel.jsonwebtokens/5.5.0/microsoft.identitymodel.jsonwebtokens.5.5.0.nupkg.sha512",
+    "/home/elyneker/.nuget/packages/microsoft.identitymodel.logging/5.5.0/microsoft.identitymodel.logging.5.5.0.nupkg.sha512",
+    "/home/elyneker/.nuget/packages/microsoft.identitymodel.tokens/5.5.0/microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.win32.registry/4.5.0/microsoft.win32.registry.4.5.0.nupkg.sha512",
@@ -55,6 +58,7 @@
     "/home/elyneker/.nuget/packages/system.diagnostics.tracing/4.3.0/system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/system.globalization.extensions/4.3.0/system.globalization.extensions.4.3.0.nupkg.sha512",
+    "/home/elyneker/.nuget/packages/system.identitymodel.tokens.jwt/5.5.0/system.identitymodel.tokens.jwt.5.5.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/system.io.filesystem/4.3.0/system.io.filesystem.4.3.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/system.io.filesystem.primitives/4.3.0/system.io.filesystem.primitives.4.3.0.nupkg.sha512",
@@ -80,6 +84,7 @@
     "/home/elyneker/.nuget/packages/system.runtime.serialization.json/4.3.0/system.runtime.serialization.json.4.3.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/system.runtime.serialization.primitives/4.3.0/system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/system.security.accesscontrol/4.5.0/system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "/home/elyneker/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/system.security.cryptography.primitives/4.3.0/system.security.cryptography.primitives.4.3.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/system.security.cryptography.protecteddata/4.5.0/system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/system.security.permissions/4.5.0/system.security.permissions.4.5.0.nupkg.sha512",

@@ -60,3 +60,8 @@
 /home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/bin/Debug/net5.0/Data.pdb
 /home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/bin/Debug/net5.0/AutoMapper.dll
 /home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/bin/Debug/net5.0/mono_crash.21acb2c4bb.0.json
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll

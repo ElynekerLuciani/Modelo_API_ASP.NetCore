@@ -12,6 +12,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Api.CrossCutting.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
+using Api.Domain.Security;
+using Microsoft.Extensions.Options;
 
 namespace application
 {
@@ -29,6 +31,15 @@ namespace application
         {
             ConfigureService.ConfigureDependencyService(services);
             ConfigureRepository.ConfigureDependencyRepository(services);
+
+            var signingConfigurations = new SigningConfigurations();
+            services.AddSingleton(signingConfigurations);
+
+            var tokenConfiguration = new TokenConfiguration();
+            new ConfigureFromConfigurationOptions<TokenConfiguration>(
+                Configuration.GetSection("TokenConfiguration")).Configure(tokenConfiguration);
+
+            services.AddSingleton(tokenConfiguration);
 
             //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
