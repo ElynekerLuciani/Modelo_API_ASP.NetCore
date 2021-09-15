@@ -9,6 +9,7 @@ namespace Api.CrossCutting.DependencyInjection
         public static void ConfigureDependencyService(IServiceCollection serviceCollection)
         {
             serviceCollection.AddTransient<IUserServices, UserService>();
+            serviceCollection.AddTransient<ILoginService, LoginService>();
         }
     }
 }
