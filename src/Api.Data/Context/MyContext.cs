@@ -22,6 +22,19 @@ namespace Api.Data.Context
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<UserEntity>(new UserMap().Configure);
+
+            //Ao iniciar a criação cadastrar um usuário padrão
+            // modelBuilder.Entity<UserEntity>().HasData(
+            //     new UserEntity
+            //     {
+            //         Id = Guid.NewGuid(),
+            //         Name = "Admin",
+            //         Email = "admin@mail.com",
+            //         CreateAt = DateTime.Now,
+            //         UpdateAt = DateTime.Now
+            //     }
+            // );
+
         }
 
     }

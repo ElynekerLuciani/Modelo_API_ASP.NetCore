@@ -18,6 +18,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Api.CrossCutting.Mappings;
 using AutoMapper;
+using Api.Data.Context;
 
 namespace application
 {
@@ -140,6 +141,19 @@ namespace application
             {
                 endpoints.MapControllers();
             });
+
+            //Rotina para que realize a atualização do banco com as migrations automaticamente
+            if (Environment.GetEnvironmentVariable("MIGRATION").ToLower() == "APLICAR".ToLower())
+            {
+                using (var service = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>()
+                .CreateScope())
+                {
+                    using (var context = service.ServiceProvider.GetService<MyContext>())
+                    {
+                        context.Database.Migrate();
+                    }
+                }
+            }
         }
     }
 }
