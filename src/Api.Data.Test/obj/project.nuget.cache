@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RnPqA+81JcJGsZwIBYhSO1hHob+GPlsu5jroSSV8d5AHWYMdOYTTCG1CaI2pUlJmU3zoM6I1senKkecrnmf6UQ==",
+  "dgSpecHash": "EEPf1dZj6DnYJBy1mUju9ONmkqPz4xj58yopRZS/cFG24N5WSI/nrnx9FtISpTfYFAbY8K2SFGnrOll303bl3Q==",
   "success": true,
   "projectFilePath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data.Test/Api.Data.Test.csproj",
   "expectedPackageFiles": [
     "/home/elyneker/.nuget/packages/automapper/10.0.0/automapper.10.0.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.0.1/automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "/home/elyneker/.nuget/packages/coverlet.collector/3.0.2/coverlet.collector.3.0.2.nupkg.sha512",
+    "/home/elyneker/.nuget/packages/faker.netcore/1.0.2/faker.netcore.1.0.2.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/3.1.6/microsoft.aspnetcore.authentication.jwtbearer.3.1.6.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

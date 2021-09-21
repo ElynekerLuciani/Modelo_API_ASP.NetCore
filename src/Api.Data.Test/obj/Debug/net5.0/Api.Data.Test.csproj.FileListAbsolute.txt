@@ -151,3 +151,5 @@
 /home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data.Test/obj/Debug/net5.0/ref/Api.Data.Test.dll
 /home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data.Test/obj/Debug/net5.0/Api.Data.Test.pdb
 /home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data.Test/obj/Debug/net5.0/Api.Data.Test.genruntimeconfig.cache
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data.Test/bin/Debug/net5.0/Faker.NETCore.dll
+/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data.Test/bin/Debug/net5.0/de-DE/Faker.NETCore.resources.dll
