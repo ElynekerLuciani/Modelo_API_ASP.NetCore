@@ -1,3 +1,4 @@
+using System;
 using Api.Data.Mapping;
 using Api.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
@@ -24,16 +25,16 @@ namespace Api.Data.Context
             modelBuilder.Entity<UserEntity>(new UserMap().Configure);
 
             //Ao iniciar a criação cadastrar um usuário padrão
-            // modelBuilder.Entity<UserEntity>().HasData(
-            //     new UserEntity
-            //     {
-            //         Id = Guid.NewGuid(),
-            //         Name = "Admin",
-            //         Email = "admin@mail.com",
-            //         CreateAt = DateTime.Now,
-            //         UpdateAt = DateTime.Now
-            //     }
-            // );
+            modelBuilder.Entity<UserEntity>().HasData(
+                new UserEntity
+                {
+                    Id = Guid.NewGuid(),
+                    Name = "Admin",
+                    Email = "admin@mail.com",
+                    CreateAt = DateTime.Now,
+                    UpdateAt = DateTime.Now
+                }
+            );
 
         }
 
