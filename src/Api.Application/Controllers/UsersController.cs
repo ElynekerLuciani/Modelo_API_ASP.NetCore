@@ -13,7 +13,8 @@ namespace Api.Application.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        private IUserServices _services;
+        //correção após implementação dos teste unitários {get; set;}
+        private IUserServices _services { get; set; }
 
         public UsersController(IUserServices services)
         {

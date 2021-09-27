@@ -8,7 +8,9 @@ namespace Api.CrossCutting.Mappings
     {
         public ModelToEntityProfile()
         {
-            CreateMap<UserEntity, UserModel>().ReverseMap();
+            //Corrweção após implementar testes unitários
+            //CreateMap<UserEntity, UserModel>().ReverseMap();
+            CreateMap<UserModel, UserEntity>().ReverseMap();
         }
 
     }

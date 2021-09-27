@@ -23,7 +23,9 @@ namespace Api.Application.Controllers
 
             if (loginDTO == null)
             {
-                return BadRequest();
+                //correção após implementação dos teste unitários
+                //return BadRequest();
+                return BadRequest(ModelState);
             }
 
             try
@@ -32,7 +34,9 @@ namespace Api.Application.Controllers
 
                 if (result != null)
                 {
-                    return Ok(result);
+                    //correção após implementação dos teste unitários
+                    //return Ok(result);
+                    return result;
                 }
                 else
                 {

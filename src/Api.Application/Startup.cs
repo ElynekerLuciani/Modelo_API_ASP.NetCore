@@ -65,11 +65,19 @@ namespace application
                 paramsValidation.IssuerSigningKey = signingConfigurations.Key;
                 paramsValidation.ValidAudience = tokenConfiguration.Audience;
                 paramsValidation.ValidIssuer = tokenConfiguration.Issuer;
+
+                //Realiza a validação da assinatura de um token recebido
                 paramsValidation.ValidateIssuerSigningKey = true;
+
+                //verifica se um token recebido ainda é válido
                 paramsValidation.ValidateLifetime = true;
+
+                //Tempo de tolerância para a expiração de um token
                 paramsValidation.ClockSkew = TimeSpan.Zero;
             });
 
+            // Ativa o uso do token como forma de autorizar o acesso
+            // a recursos deste projeto
             services.AddAuthorization(auth =>
             {
                 auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
