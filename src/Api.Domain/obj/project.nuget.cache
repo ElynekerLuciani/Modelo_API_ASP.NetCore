@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W7mGn8iu5Sdhvt+Q0bStNMNNIKwpzrvvvpro7RVE4HNrvQ7EIJUpzLc3Dd4a8sw5U6JOfnF0F41QZ9hHYTRlbw==",
+  "dgSpecHash": "RBjvh/tijDB8uaGmWyUYpypzV+EXYPECX9NGj+cmMDeLX49VOMYbWkFN40p8WoiYYl2SLvJO2NsJJSlLT23baA==",
   "success": true,
-  "projectFilePath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Domain/Domain.csproj",
+  "projectFilePath": "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Domain/Domain.csproj",
   "expectedPackageFiles": [
     "/home/elyneker/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/elyneker/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.7.1/microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",

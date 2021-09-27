@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Domain/Domain.csproj": {}
+    "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Domain/Domain.csproj": {}
   },
   "projects": {
-    "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Domain/Domain.csproj": {
+    "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Domain/Domain.csproj",
+        "projectUniqueName": "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Domain/Domain.csproj",
+        "projectPath": "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Domain/Domain.csproj",
         "packagesPath": "/home/elyneker/.nuget/packages/",
-        "outputPath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Domain/obj/",
+        "outputPath": "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/elyneker/.nuget/NuGet/NuGet.Config"

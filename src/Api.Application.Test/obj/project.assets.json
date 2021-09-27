@@ -8891,11 +8891,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application.Test/Api.Application.Test.csproj",
+      "projectUniqueName": "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Application.Test/Api.Application.Test.csproj",
       "projectName": "Api.Application.Test",
-      "projectPath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application.Test/Api.Application.Test.csproj",
+      "projectPath": "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Application.Test/Api.Application.Test.csproj",
       "packagesPath": "/home/elyneker/.nuget/packages/",
-      "outputPath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application.Test/obj/",
+      "outputPath": "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Application.Test/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/elyneker/.nuget/NuGet/NuGet.Config"
@@ -8910,14 +8910,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/application.csproj": {
-              "projectPath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/application.csproj"
+            "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Application/application.csproj": {
+              "projectPath": "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Application/application.csproj"
             },
-            "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Domain/Domain.csproj": {
-              "projectPath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Domain/Domain.csproj"
+            "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Domain/Domain.csproj": {
+              "projectPath": "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Domain/Domain.csproj"
             },
-            "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Service/Service.csproj": {
-              "projectPath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Service/Service.csproj"
+            "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Service/Service.csproj": {
+              "projectPath": "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Service/Service.csproj"
             }
           }
         }

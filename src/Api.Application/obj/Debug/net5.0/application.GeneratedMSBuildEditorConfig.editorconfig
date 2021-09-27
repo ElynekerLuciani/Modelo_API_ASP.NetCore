@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = application
-build_property.ProjectDir = /home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Application/
+build_property.ProjectDir = /home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Application/

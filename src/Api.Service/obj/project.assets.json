@@ -5338,11 +5338,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Service/Service.csproj",
+      "projectUniqueName": "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Service/Service.csproj",
       "projectName": "Service",
-      "projectPath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Service/Service.csproj",
+      "projectPath": "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Service/Service.csproj",
       "packagesPath": "/home/elyneker/.nuget/packages/",
-      "outputPath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Service/obj/",
+      "outputPath": "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Service/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/elyneker/.nuget/NuGet/NuGet.Config"
@@ -5357,11 +5357,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/Data.csproj": {
-              "projectPath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Data/Data.csproj"
+            "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Data/Data.csproj": {
+              "projectPath": "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Data/Data.csproj"
             },
-            "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Domain/Domain.csproj": {
-              "projectPath": "/home/elyneker/Desenvolvimento/C#/curso_api/src/Api.Domain/Domain.csproj"
+            "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Domain/Domain.csproj": {
+              "projectPath": "/home/elyneker/Desenvolvimento/C#/Modelo_API_ASP.NetCore/src/Api.Domain/Domain.csproj"
             }
           }
         }
