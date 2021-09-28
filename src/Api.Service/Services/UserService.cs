@@ -30,7 +30,9 @@ namespace Api.Service.Services
         public async Task<UserDTO> Get(Guid id)
         {
             var entity = await _repository.SelectAsync(id);
-            return _mapper.Map<UserDTO>(entity) ?? new UserDTO();
+            //comentário para teste de integração
+            //return _mapper.Map<UserDTO>(entity) ?? new UserDTO();
+            return _mapper.Map<UserDTO>(entity);
         }
 
         public async Task<IEnumerable<UserDTO>> GetAll()

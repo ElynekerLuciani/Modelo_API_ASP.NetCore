@@ -17,15 +17,14 @@ namespace Api.Service.Services
     {
         private IUserRepository _repository;
         private SigningConfigurations _signingConfigurations;
-        private TokenConfiguration _tokenConfiguration;
+
         private IConfiguration _configuration { get; }
 
         public LoginService(IUserRepository repository, SigningConfigurations signingConfigurations,
-                            TokenConfiguration tokenConfiguration, IConfiguration configuration)
+                            IConfiguration configuration)
         {
             _repository = repository;
             _signingConfigurations = signingConfigurations;
-            _tokenConfiguration = tokenConfiguration;
             _configuration = configuration;
         }
         public async Task<object> FindByLogin(LoginDTO user)
@@ -47,15 +46,15 @@ namespace Api.Service.Services
                 else
                 {
                     ClaimsIdentity identity = new ClaimsIdentity(
-                        new GenericIdentity(baseUser.Email),
+                        new GenericIdentity(user.Email),
                         new[] {
                             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                             new Claim(JwtRegisteredClaimNames.UniqueName, user.Email),
                         }
                     );
 
-                    DateTime createDate = DateTime.Now;
-                    DateTime expirationDate = createDate + TimeSpan.FromSeconds(_tokenConfiguration.Seconds);
+                    DateTime createDate = DateTime.UtcNow;
+                    DateTime expirationDate = createDate + TimeSpan.FromSeconds(Convert.ToInt32(Environment.GetEnvironmentVariable("Seconds")));
 
                     var handler = new JwtSecurityTokenHandler();
                     string token = CreateToken(identity, createDate, expirationDate, handler);
@@ -79,8 +78,8 @@ namespace Api.Service.Services
         {
             var securityToken = handler.CreateToken(new SecurityTokenDescriptor
             {
-                Issuer = _tokenConfiguration.Issuer,
-                Audience = _tokenConfiguration.Audience,
+                Issuer = Environment.GetEnvironmentVariable("Issuer"),
+                Audience = Environment.GetEnvironmentVariable("Audience"),
                 SigningCredentials = _signingConfigurations.SigningCredentials,
                 Subject = identity,
                 NotBefore = createDate,
