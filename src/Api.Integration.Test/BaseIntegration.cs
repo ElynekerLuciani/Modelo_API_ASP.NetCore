@@ -71,7 +71,7 @@ namespace Api.Integration.Test
           {
               cfg.AddProfile(new ModelToEntityProfile());
 
-              //cfg.AddProfile(new DtoToModelProfile());
+              cfg.AddProfile(new DtoToModelProfile());
               cfg.AddProfile(new EntityToDtoProfile());
               //cfg.AddProfile(new ModelToEntityProfile());
           });

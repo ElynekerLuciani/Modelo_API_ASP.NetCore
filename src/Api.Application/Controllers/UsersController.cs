@@ -54,7 +54,14 @@ namespace Api.Application.Controllers
 
             try
             {
-                return Ok(await _services.Get(id));
+                var result = await _services.Get(id);
+
+                if (result == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(result);
 
             }
             catch (ArgumentException e)

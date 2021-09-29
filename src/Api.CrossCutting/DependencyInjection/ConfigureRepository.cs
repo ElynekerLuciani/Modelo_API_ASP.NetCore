@@ -25,7 +25,7 @@ namespace Api.CrossCutting.DependencyInjection
             else
             {
                 serviceCollection.AddDbContext<MyContext>(options => options
-                .UseMySql("Server=localhost;Port=3306;Database=dbAPI;Uid=admin;Pwd=Freire2096#"));
+                .UseMySql(Environment.GetEnvironmentVariable("DB_CONNECTION")));
             }
 
 
